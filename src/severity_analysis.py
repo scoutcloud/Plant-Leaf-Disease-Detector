@@ -32,7 +32,7 @@ def determine_severity(disease_percentage):
     """
 
     if disease_percentage <= 5:
-        return "Healthy / Very Low"
+        return "Very Low"
 
     elif disease_percentage <= 15:
         return "Mild"
